@@ -1,0 +1,114 @@
+.ProseMirror {
+    > * + * {
+        margin-top: 0.75em;
+    }
+    p {
+        font-size: 20px;
+    }
+
+    h1,
+    h2,
+    h3,
+    p,
+    strong,
+    u,
+    em {
+        font-family: "Times New Roman", Times, serif;
+    }
+
+    ul,
+    ol {
+        padding: 0 2rem;
+    }
+    img {
+        height: auto;
+        max-width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+        &.ProseMirror-selectednode {
+            outline: 3px solid #68cef8;
+        }
+    }
+    font-size: 18px;
+    margin: 5px;
+    outline: none;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    .content-wrapper {
+        width: 1200px;
+        height: auto;
+        .content-buttons {
+            display: flex;
+            justify-content: space-evenly;
+            background: #9a9a9a;
+            padding: 15px;
+            border: 2px solid #000;
+            border-bottom: none;
+            border-radius: 15px 15px 0 0;
+            .editor-btn {
+                display: flex;
+                justify-content: center;
+                width: 70px;
+                padding: 5px;
+                border: none;
+                border-radius: 5px;
+                outline: none;
+                background: transparent;
+                .btn-text {
+                    font-size: 16px;
+                    font-family: serif;
+                    text-align: center;
+                }
+                &:hover {
+                    cursor: pointer;
+                    background: #c5c5c5;
+                }
+                &:active {
+                    background: #6d6d6d;
+                }
+            }
+
+            .editor-in {
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                display: flex;
+                appearance: none;
+                width: 30px;
+                height: 30px;
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+
+                &::-webkit-color-swatch {
+                    border: none;
+                }
+                &::-moz-color-swatch {
+                    border: none;
+                }
+            }
+        }
+
+        .content-editor {
+            border: 2px solid #000;
+            border-radius: 0 0 15px 15px;
+
+            .editor {
+                background: #fff;
+                padding: 10px;
+                padding-bottom: 50px;
+                border-radius: 0 0 15px 15px;
+            }
+        }
+    }
+
+    .submit-form {
+        background: none;
+        border: none;
+    }
+}

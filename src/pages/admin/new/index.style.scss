@@ -1,0 +1,81 @@
+.news-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    .news-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            outline: none;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+                rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            cursor: pointer;
+            font-size: 16px;
+            text-align: center;
+            font-weight: 500;
+            transition-duration: 500ms;
+            &:hover {
+                filter: brightness(1.25);
+                transition-duration: 500ms;
+            }
+            &:active {
+                filter: brightness(0.75);
+            }
+        }
+
+        .create-content-btn {
+            margin-top: 50px;
+            margin-bottom: 10px;
+            background: #72c562;
+        }
+        table {
+            border-collapse: collapse;
+            th,
+            td {
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+            }
+
+            td {
+                max-width: 20vw;
+                height: auto;
+                white-space: nowrap;
+            }
+
+            .t-heading {
+                background: #034ea2;
+                color: #fff;
+                font-size: 16px;
+                text-align: center !important;
+            }
+            .t-content {
+                .c {
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                .c-action {
+                    .action-grp {
+                        display: flex;
+                        width: 100%;
+
+                        .btn {
+                            margin: 5px;
+                        }
+                        .update-btn {
+                            background: #72c562;
+                        }
+
+                        .delete-btn {
+                            background: #cc310e;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

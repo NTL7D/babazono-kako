@@ -1,0 +1,87 @@
+body {
+    background: #f0f0f1;
+    font-size: 13px;
+}
+
+.login-container {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .forgor {
+        margin-top: 10px;
+        margin-left: 35px;
+        width: 350px;
+        display: flex;
+        align-content: flex-start;
+        flex-direction: column;
+
+        .direct {
+            text-decoration: none;
+            color: #50575e;
+            margin: 10px;
+        }
+        :hover {
+            color: #2271b1;
+        }
+    }
+}
+
+.form-login {
+    display: block;
+    background: #fff;
+    width: 350px;
+    padding: 30px 25px;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
+
+    .input-1 {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            border: 1px solid #777;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .text-label {
+            margin-bottom: 5px;
+        }
+
+        .password-label {
+            margin-top: 20px;
+            margin-bottom: 5px;
+        }
+    }
+
+    .submit-label {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .rember {
+            span {
+                margin-left: 10px;
+            }
+
+            input[type="checkbox"] {
+                border: 1px solid #8c8f94;
+            }
+        }
+
+        .submit-button {
+            background: #2271b1;
+            color: #fff;
+            padding: 8px;
+            cursor: pointer;
+            border: 1px solid #2271b1;
+            border-radius: 5px;
+            &:hover {
+                background: #1f649d;
+            }
+        }
+    }
+}

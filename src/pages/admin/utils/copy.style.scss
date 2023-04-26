@@ -1,0 +1,49 @@
+.copy-container {
+    display: flex;
+    align-items: center;
+    .copy-wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .copy-text {
+            padding: 10px;
+            background: #fff;
+            display: flex;
+            align-items: center;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+
+            .copy-input {
+                width: 200px;
+            }
+            .copy-btn {
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            .copy-same {
+                background: #fff;
+                border: none;
+                outline: none;
+            }
+        }
+        .upload-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35px;
+            height: 35px;
+            margin-left: 10px;
+            background: #337eff;
+            border-radius: 50%;
+            cursor: pointer;
+            transition-duration: 500ms;
+
+            &:hover {
+                filter: brightness(1.25);
+                transition-duration: 500ms;
+            }
+        }
+    }
+}

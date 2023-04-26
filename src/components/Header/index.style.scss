@@ -1,0 +1,35 @@
+.Header-format {
+    display: flex;
+    background-color: #fff;
+}
+.Image {
+    width: 110px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.Text {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #363636;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-decoration: none;
+}
+.GroupText {
+    position: relative;
+    margin-left: 140px;
+    display: flex;
+    margin-top: 0.5%;
+}
+.Text:hover {
+    color: #67a13e;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-size: cover;
+}

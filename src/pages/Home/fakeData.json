@@ -1,0 +1,240 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "GIẢNG VIÊN BỘ MÔN .NET",
+            "name": "Hoàng Trọng Hiếu",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2022/08/MicrosoftTeams-image-250x250.jpg",
+            "images": [
+                "Vị trí công tác hiện tại: Giảng viên bộ môn .NET",
+                "Trình độ học vấn: Thạc sĩ Kỹ thuật phần mềm - Đại học FPT",
+                "Quá trình công tác:[\"2017 - 2020: FPT Telecom,2020 - 07/2021: Vingroup,08/2021 - 03/2022: FPT Software - FHN.MAS,04/2022 - nay: FPT Software Academy - Giảng viên nội bộ\"]",
+                "Các chứng chỉ đã đạt được: Nghiệp vụ sư phạm",
+                "Châm ngôn yêu thích: \"Tuổi trẻ không áp lực chẳng lẽ đợi đến già?\"",
+                "Lời khuyên cho các bạn học viên: \"Chúng ta chỉ sống có một lần, tuổi trẻ qua đi cũng không thể trở lại. Sẽ thật đáng tiếc nếu chúng ta lãng phí quãng thời gian ấy. Vì vậy, chúng ta cần thật nỗ lực để khi nhìn lại không phải nuối tiếc rằng nếu ngày ấy cố gắng, chắc hẳn đã có sự nghiệp thành công hơn. Áp lực tạo kim cương!\""
+            ]
+        },
+        {
+            "id": 2,
+            "title": "GIẢNG VIÊN KHÓA IT FUNDAMENTALS",
+            "name": "Đinh Xuân Công",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2022/07/73460473_2549652308460889_9114398065036361728_n-250x250.jpg",
+            "images": [
+                "Vị trí công tác hiện tại: Full-Stack Developer .NET/Angular - FHN.MAS",
+                "Trình độ học vấn: Kỹ sư - Đại học Mỏ Địa Chất",
+                "Quá trình công tác:[\"2012 - 2016: Làm freelancer với các công việc liên quan tới MMO: Quản lý, phát triển content website, Facebook Ads, Google Adsense, Google Adwords",
+                "2016 - 2018: Làm freelance web developer",
+                "2018 - 2022: Mentor/Trainer tại FPT Software Academy. Full-Stack .NET/Angular Developer tại FPT Software FHN.MAS\"]",
+                "Thành tích:[\"Chứng chỉ Microsoft MCSA: Universal Windows Platform",
+                "Chứng chỉ Microsoft MCSA: Web Applications",
+                "Chứng chỉ Amazon AWS Certified Solutions Architect – Associate\"]",
+                "Giải thưởng /thành tích tại FSOFT: 2021 Top Contributors for Training",
+                "Châm ngôn yêu thích trong công việc: \"Luôn là phiên bản tốt nhất của chính mình\"",
+                "Lời khuyên cho các học viên lớp IT Fundamentals: \"Không quan trọng các bạn có xuất phát điểm tại đâu, nghề nghiệp là gì, tuổi tác bao nhiêu. Khi đã quyết định học một thứ gì đó mới, hãy dành cho nó 100% sự tập trung khi học, 100% sự cố gắng khi thực hành. Chắc chắn bạn sẽ thành công với nó!\""
+            ]
+        },
+        {
+            "id": 3,
+            "title": "GIẢNG VIÊN KHÓA DEVOPS",
+            "name": "Bùi Quang Lâm",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2022/07/Bui-Quang-Lam-LamBQ1-250x250.jpg",
+            "images": [
+                "Trình độ học vấn:[\"Kỹ sư Điện tử Viễn thông - ĐH Bách Khoa HN",
+                "Thạc sĩ Công nghệ Thông tin - ĐH Bách Khoa HN\"]",
+                "Quá trình công tác:[\" 6 năm kinh nghiệm tại vị trí DevOps & Cloud Engineer",
+                "2018 - 2021: DevOps tại Samsung Tham gia làm các dự án Global cho Samsung Electronics Kinh nghiệm làm việc tại trung tâm nghiên cứu Samsung",
+                "2021 - nay: TechLead & DevOps tại FPT Software\"]",
+                "Kinh nghiệm làm việc và training tại FPT Software:[\"Trainer khóa DevOps Fresher 1 (FHN)",
+                "Trực tiếp xây dựng khung chương trình và document về khóa training\""
+            ]
+        },
+        {
+            "id": 4,
+            "title": "GIẢNG VIÊN KHÓA DEVOPS",
+            "name": "Trần Tuấn Anh",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2022/07/MicrosoftTeams-image-2-e1667555211549-250x250.jpg",
+            "images": [
+                "Trình độ học vấn: Kỹ sư An toàn thông tin - Học viện Kỹ thuật Mật Mã",
+                "Kinh nghiệm làm việc:[\"Hơn 7 năm kinh nghiệm thiết kế và xây dựng hạ tầng Cloud",
+                "Giàu kinh nghiệm triển khai' các dự án về Blockchain, IoT, Finance, Social Network,...",
+                "Hiện đang đảm nhiệm vị trí Technical Leader trong dự án tại FPT Software.\"]",
+                "Thành tích: Nhân viên xuất sắc 2019, 2021\""
+            ]
+        },
+        {
+            "id": 5,
+            "title": "GIẢNG VIÊN BỘ MÔN FRONT-END",
+            "name": "Hà Khánh Toàn",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/Screen-Shot-2021-08-24-at-09.58.29-300x300.png",
+            "images": "Thạc sỹ CNTT, hơn 8 năm kinh nghiệm giảng dạy tại các trung tâm, học viện đào tạo và tham gia nhiều dự án phần mềm lớn. \"Thành công không phải ngẫu nhiên. Đó là sự chăm chỉ, bền bỉ, học hỏi, nghiên cứu, hy sinh và quan trọng nhất, tình yêu đối với việc mình đang làm.\""
+        },
+        {
+            "id": 6,
+            "title": "GIẢNG VIÊN JAVA, ANGULAR & ANDROID",
+            "name": "Âu Mậu Dương",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/AuMauDuong-Mậu-Dương-Âu-400x400.jpg",
+            "images": "Tổt nghiệp Cử Nhân ngành Khoa Học Máy Tính, 8 năm làm việc với các vị trí Giảng viên đại học (Trường ĐH Tôn Đức Thắng, giảng viên cơ hữu khoảng 2 năm), là một lập trình viên, lập trình viên cấp cao của một số công ty Start-Up, và hiện tại là Trainer của FPT Software. Đạt được các chứng chỉ như Oracle Certified Associate Java SE 8 Programmer, Java SE 8 Programmer II. Ngoài ra, anh đã hoàn thành luận văn Thạc Sĩ tại trường ĐH Bách Khoa TPHCM."
+        },
+        {
+            "id": 7,
+            "title": "TRƯỞNG NHÓM PHÁT TRIỂN CHƯƠNG TRÌNH, GIẢNG VIÊN JAVA",
+            "name": "Nguyễn Thị Điệu",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/Doi-ngu-chuyen-gia_DieuNT11.jpg",
+            "images": "Thạc sỹ CNTT, hơn 11 năm kinh nghiệm trong ngành phần mềm: Giảng viên Đại học, Lập trình viên, Chuyên gia phát triển nội dung chương trình đào tạo. Các chứng chỉ: Oracle Certified Professional, Java SE Programmer; Instructional Design; Project Management Fundamental... \"Những gì chúng ta biết ngày hôm nay sẽ lỗi thời vào ngày hôm sau. Nếu chúng ta ngừng học thì chúng ta sẽ ngừng phát triển\""
+        },
+        {
+            "id": 8,
+            "title": "GIẢNG VIÊN .NET",
+            "name": "Trịnh Bá Tú",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/Screen-Shot-2021-08-24-at-10.01.45-300x300.png",
+            "images": [
+                "Hơn 10 năm kinh nghiệm làm việc trong ngành Phần mềm tại FPT Software:[\"8 năm tham gia các dự án với nhiều vị trí từ Developer, Team leader, Technical leader, Solution Architect, Project Manager",
+                "2 năm tham gia giảng dạy tại FA. Sở hữu các chứng chỉ: Microsoft Certified Solutions Associate (MCSA); Microsoft Certified Professional (MCP); PME; PMF...\"]"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "GIẢNG VIÊN JAVA & .NET",
+            "name": "Đinh Vũ Quốc Trung",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/Doi-ngu-chuyen-gia_TrungDVQ.jpg",
+            "images": "Hơn 10 năm kinh nghiệm tại FPT Software: 7 năm tham gia dự án (Developer, Technical Leader; Project Manager), 3 năm kinh nghiệm giảng dạy, phát triển nội dung đào tạo và chuyển giao công nghệ cho các trường Đại học. \"Ngành này dễ học, dễ hiểu, học xong tự giỏi tiếng anh, ra trường việc nhẹ lương cao lắm. Hãy học và làm việc với tất cả đam mê, thành công sẽ đến.\""
+        },
+        {
+            "id": 10,
+            "title": "GIẢNG VIÊN FPT SOFTWARE ACADEMY ĐÀ NẴNG",
+            "name": "Hồ Đức Lĩnh",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/Screen-Shot-2021-08-24-at-10.24.45-250x250.png",
+            "images": [
+                "Thạc sỹ Khoa học Máy tính – Đại học Bách khoa Đà Nẵng Hơn 10 năm kinh nghiệm giảng dạy và hoạt động đào tạo tại trường đại học, các doanh nghiệp với nhiều nghiên cứu khoa học như:[\"Design a platform for high flexibility and low-cost monitoring systems with a case study: warning system for gamma radiation and environment, International conference @ XII, Vietnam, ID No 89;",
+                "Pomelos detected defects using CIE L*a*b* color space and global threshold (Otsu), Journal of Dong A University, Vietnam. No 12, 2015;",
+                "Recognition grapefruit based on Gabor Wavelet, gray level co-occurrence matrix and k-NN algorithm, Journal of Dong A University, Vietnam. No 11, 2015.\"]",
+                "Đã làm nhiều dự án về Front End, PHP (Laravel), iOS (Game), Matlab và Python (Building and Implementing AI Model)",
+                "Sở hữu các chứng chỉ:[\"The Complete ASP.NET MVC 5 Course",
+                "Advanced Course In Multimedia & Web Design Technology",
+                "DB2 pure XML\"]"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "TRƯỞNG NHÓM TRAINER ĐÀ NẴNG",
+            "name": "Nguyễn Văn Liêm",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/Screen-Shot-2021-08-24-at-10.05.29-300x300.png",
+            "images": [
+                "Giảng viên, Phát triển chương trinh Đào tạo tại FPT Software - Academy Cán bộ đào tạo xuất sắc FPT 2019. Sở hữu nhiều chứng chỉ như:[\"Sun Certified Java Programmer",
+                "Instructional Design Certificate",
+                "Project Management Fundamental Certificate",
+                "Python3 Tutorial Certificate\"]"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "GIẢNG VIÊN JAVA WEB FULLSTACK",
+            "name": "Mã Hoàng Hải",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/322A1706-Hai-Ma-scaled-e1630305911867-250x250.jpg",
+            "images": "Với nhiều năm kinh nghiệm làm việc tại các dự án và giảng dạy tại FPT Software, hiện tại đảm nhận vị trí Cloud Architect"
+        },
+        {
+            "id": 13,
+            "title": "GIẢNG VIÊN EMBEDDED AUTOSAR",
+            "name": "Nguyễn Văn Huy",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/MicrosoftTeams-image-250x250.jpg",
+            "images": "Tốt nghiệp kỹ sư Đại Học Bách Khoa Với hơn 5 năm kinh nghiệm tham gia dự án tại FPT Software về mảng AUTOSAR Ngoại ngữ: Tiếng Nhật N2, TOEIC 800"
+        },
+        {
+            "id": 14,
+            "title": "GIẢNG VIÊN BUSINESS ANALYST",
+            "name": "Trần Hoài Thu",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/ThuTh3-e1630383848454-250x250.jpeg",
+            "images": "Với kinh nghiệm 8 năm làm việc với vị trí Business Analyst và 5 năm làm việc tại FPT Software tại đơn vị FHN.FHS. Từng làm Business Analyst cho một số công ty cả về in-house product và outsource. Hiện chị đang làm Business Analyst lead cho dự án MedAdvisor headcount tầm 40 người ở FHS - khách hàng Úc Đạt được một số chứng chỉ nghề nghiệp: PSM 1, PSPO 1 và PSM 2"
+        },
+        {
+            "id": 15,
+            "title": "GIẢNG VIÊN ANGULAR & .NET",
+            "name": "Nguyễn Ngọc Vũ",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/IMG_20191127_220354-Ngọc-Vũ-Nguyễn-250x250.jpg",
+            "images": "Với nhiều năm kinh nghiệm tham gia các dự án lớn tại FPT Software và đạt được các chứng chỉ như: MCSA: Web Application, MCSD: App Builder, Microsoft Azure Developer, Microsoft DevOps Engineer Expert"
+        },
+        {
+            "id": 16,
+            "title": "GIẢNG VIÊN JAVA & .NET",
+            "name": "Biện Lê Chí Quốc",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/AnhThe-Q-Mr.-250x250.jpg",
+            "images": "Với 10 năm kinh nghiệm làm việc trong ngành Phần mềm, gần 8 năm tham gia các dự án với nhiều vị trí từ Developer, Team leader ,Business Analyst, Project Manager; 2 năm tham gia giảng dạy và phát triển nội dung đào tạo. Sở hữu các chứng chỉ: NX Designer Certification, Project Management Essentials (PME), Project Manager For Practitioners (PM4P), Preactor AP Ultimate 16.4 Power User Course, Kotlin for Android : Beginner to Advanced. \"Không có bước chân nào là lãng phí. Chỉ có sự nỗ lực nữa vời mới là thất bại đích đáng.\""
+        },
+        {
+            "id": 17,
+            "title": "GIẢNG VIÊN TESTING",
+            "name": "Nguyễn Thị Minh Nguyệt",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/C.Nguyet-copy-300x300.jpg",
+            "images": "Gần 8 năm tham gia giảng dạy với vị trí Trainer tại FA và đạt được những giải thưởng như Cá nhân xuất sắc FWA FA, Cá nhân tiêu biểu FA ..."
+        },
+        {
+            "id": 18,
+            "title": "GIẢNG VIÊN FRONTEND",
+            "name": "Nguyễn Duy Linh",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/LinhND-20-Nguyen-Linh-250x250.png",
+            "images": "Tốt nghiệp đại học FPT với hơn 5 năm kinh nghiệm làm việc với các dự án ở lĩnh vực Front-end , Back-end"
+        },
+        {
+            "id": 19,
+            "title": "GIẢNG VIÊN TEST & BUSINESS ANALYST",
+            "name": "Nguyễn Khánh Phượng",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/IMG_2406-scaled-e1629790062768-250x250.jpg",
+            "images": "Với 16 năm công tác tại FPT Software trải qua các vị trí: Developer, Manual Tester, Automation Tester, Technical Design, Bussiness Analyst, Project Manager, Product Owner. Onsite tới UK, USA, South of Korea làm việc với khách hàng, triển khai dự án, cầu nối giữa offshore và khách hàng..."
+        },
+        {
+            "id": 20,
+            "title": "GIẢNG VIÊN BỘ MÔN EMBEDDED",
+            "name": "Lâm Nguyễn",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2022/01/FB_IMG_1637313684336-Lam-Nguyen-300x300.jpg",
+            "images": [
+                "Kinh nghiệm làm việc:[\"7 năm kinh nghiệm phát triển phần mềm nhúng cho ô tô.",
+                "Đang đảm nhiệm vị trí Technical Leader trong dự án.",
+                "Từng trải qua các dự án của các công ty tier 1 (cung cấp bộ điều khiển ECU ), tier 2 (cung cấp chip microcontroller vendor)",
+                "4 năm kinh nghiệm giảng dạy bộ môn Embedded, 2 năm liền là Top Contributed Trainner của FPT Software.\"]"
+            ]
+        },
+        {
+            "id": 21,
+            "title": "GIẢNG VIÊN REACT JS",
+            "name": "Nguyễn Hữu Thuận",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/LMS_3437-thuan-nguyen-250x250.jpeg",
+            "images": "Tôt nghiệp kỹ sư ngành Công nghệ thông tin tại Đại học FPT. Với 6 năm làm việc tại FPT Software với kinh nghiệm giảng dạy tại học viện đào tạo và tham gia nhiều dự án phần mền lớn."
+        },
+        {
+            "id": 22,
+            "title": "GIẢNG VIÊN FRONTEND",
+            "name": "Đỗ Mạnh Tú",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/MicrosoftTeams-image-44-scaled-e1636707013417-250x250.jpg",
+            "images": "Tốt nghiệp Học viện Bưu chính Viễn Thông 5 năm kinh nghiệm làm việc với công nghệ Front-end và Giảng dạy tại FPT Software Academy. Chứng chỉ nghề nghiệp: Microsoft Azure Fundamentals Certification Course (AZ-900) 700 TOEIC, N3 Tiếng Nhật \"Best rookies of year FPT Software HN\""
+        },
+        {
+            "id": 23,
+            "title": "GIẢNG VIÊN AUTOMATION TEST",
+            "name": "Lê Thái Duy Quang",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/135599932_10218452145441296_2288023569959375528_n-Lê-Thái-Duy-Quang-300x300.jpg",
+            "images": "Đảm nhiệm các vị trí trong các dự án phần mềm tại FPT Software như: Technical QA Manager với dự án C99, QA Architect, PM/SM, PSM I,.. tham gia dự án \"30 days of Automation Volunteer\""
+        },
+        {
+            "id": 24,
+            "title": "GIẢNG VIÊN MANUAL TEST, LUYỆN THI CHỨNG CHỈ ISTQB",
+            "name": "Nguyễn Lê Quốc Ny",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/EF10C459-3978-4A3B-B704-3B9CA8F1750D-Ny-Nguyen-250x250.png",
+            "images": "Với hơn 10 năm kinh nghiệm giảng dạy với các thành tích đạt được như Giảng viên được yêu thích nhất HCM 2015, Top contributor cho công việc giảng dạy từ 2012 đến 2020, Cá nhân xuất sắc 2010 và  Top100 FPT Software 2019"
+        },
+        {
+            "id": 25,
+            "title": "GIẢNG VIÊN JAVA & .NET",
+            "name": "Bùi Thanh Hoa",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/DNCG_HoaBT2-250x250.jpg",
+            "images": "Thạc sỹ CNTT, hơn 12 năm kinh nghiệm tham gia dự án và giảng dạy, chuyên gia huấn luyện phát triển kỹ năng công nghệ cho nhiều án lớn tại FPT Software. \"Khi các bạn đã lựa chọn ngành IT thì có nghĩa là các bạn cần phải quyết tâm rất cao, có sự cam kết và đủ ý chí, nghị lực để vượt qua những thử thách khắc nghiệt của nghề này.\""
+        },
+        {
+            "id": 26,
+            "title": "GIẢNG VIÊN REACT JS",
+            "name": "Nguyễn Tuấn Kiệt",
+            "thumbnail": "https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/avatar-Roy-Nguyen.png",
+            "images": "Tham gia các dự án phần mềm lớn tại FPT Software với vai trò lập trình viên Fullstack Javascript"
+        }
+    ]
+}

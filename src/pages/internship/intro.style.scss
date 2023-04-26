@@ -1,0 +1,259 @@
+.wrapper{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.main{
+    width: 100%;
+    height: 30%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.head{
+    width: 100%;
+    height: 359px;
+    opacity: 1;
+    object-fit: cover;
+    background-image: url(https://fsoft-academy.edu.vn/wp-content/uploads/2021/11/Banner-Thuc-tap-01-01-scaled.jpg);
+}
+.youtube{
+    width: 100%;
+    height: 394px;
+    margin-top: 0;
+    position: relative;
+}
+.youtube-content{
+    display: flex;
+    width: 1050px;
+    height: 394px;
+    margin: 0 auto;
+}
+.youtube-left{
+    width: 160%;
+    height: 100%;
+}
+.video{
+    width: 100%;
+    height: 100%;
+}
+.video iframe{
+    width: 100%;
+    height: 100%;
+}
+.youtube-right{
+    width: 90%;
+    height: 100%;
+}
+.right-content{
+    width: 80%;
+    height: 80%;
+    background-image: url(https://fsoft-academy.edu.vn/wp-content/themes/flatsome-child/assets/images/bg-tt.svg);
+    padding: 40px 40px 40px 40px;
+}
+.content{
+    width: 85%;
+    height: 80%;
+}
+.content h3{
+    color: #fff;
+    font-size: 20px;
+}
+.content div{
+    color: #f1f1f1;
+    font-size: 18px;
+}
+.content p{
+    color: #74b048;
+    font-size: 18px;
+}
+.content span{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.middle{
+    margin-top: 80px;
+}
+.main-content{
+    width: 78%;
+    height: 65%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    margin-bottom: 50px;
+}
+.main-left{
+    width: 50%;
+    height: 48%;
+}
+.main-left1{
+    width: 50%;
+    height: 48%;
+}
+.main-right{
+    width: 80%;
+    height: 48%;
+}
+.main-right1{
+    width: 80%;
+    height: 48%;
+}
+.main-right img{
+    width: 100%;
+    /* height: 100%; */
+    height: 500px;
+    object-fit: cover;
+}
+.main-right1 img{
+    width: 100%;
+    /* height: 100%; */
+    height: 500px;
+    object-fit: cover;
+}
+.left-des{
+    width: 80%;
+    height: 30%;
+    margin-bottom: 10px;
+}
+.inner-left strong{
+    font-size: 110%;
+    color: #1c1e21;
+}
+.inner-left p{
+    color: #777;
+}
+.left{
+    display: flex;
+}
+.inner{
+    width: 15px;
+    height: 15px;
+    background-color: #76bc43;
+    margin-right: 15px;
+    margin-left: -40px;
+    border-radius: 50%;
+    border: 5px solid #bef19a84;
+    margin-top: 5px;
+}
+.inner1{
+    width: 15px;
+    height: 15px;
+    background-color: #3b62a8;
+    margin-right: 15px;
+    margin-left: -40px;
+    border-radius: 50%;
+    border: 5px solid #7da3e8;
+    margin-top: 5px;
+}
+.inner2{
+    width: 15px;
+    height: 15px;
+    background-color: #da7337;
+    margin-right: 15px;
+    margin-left: -40px;
+    border-radius: 50%;
+    border: 5px solid #eb9c6f;
+    margin-top: 5px;
+}
+.main-content2{
+    width: 78%;
+    height: 75%;
+    position: absolute;
+    display: flex;
+    margin-top: 37%;
+}
+.left-des2{
+    width: 85%;
+    margin-left: 25%;
+}
+
+
+
+@media screen and (max-width: 550px){
+    .youtube-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30%;
+    }
+    .video iframe{
+        width: 62%;
+        height: 265%;
+        margin-top: -8%;
+    }
+    .youtube-right{
+        width: 108%;
+        height: 80%;
+        margin-top: 12%;
+    }
+    .right-content{
+        width: 80%;
+        height: 90%;
+    }
+    .content{
+        width: 100%;
+    }
+    .content h3{
+        color: #fff;
+        font-size: 30px;
+    }
+    .content div{
+        font-size: 20px;
+    }
+    .content p{
+        font-size: 20px;
+    }
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        margin-top: 165%;
+       
+    }
+    .main-right{
+        width: 130%;
+        height: 30%;
+        margin-top: -1050px;
+        margin-left: -30%;
+    }
+    .main-right img{
+        width: 100%;
+        height: 230%;
+       
+    }
+    .main-left{
+        width: 140%;
+        height: 48%;
+        margin-left: -15%;
+    }
+    .inner-left {
+        color: #777;
+        font-size: 20px;
+    }
+    .left-des{
+        margin-top: -55%;
+    }
+    .main-content2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 300%;
+    }
+    .main-right1{
+        width: 130%;
+        height: 30%;
+        margin-top: -550px;
+        margin-left: -30%;
+    }
+    .main-right1 img{
+        width: 100%;
+        height: 230%;
+       
+    }
+    .main-left1{
+        width: 100%;
+        height: 48%;
+        margin-left: -15%;
+        margin-top: 55%;
+    }
+}

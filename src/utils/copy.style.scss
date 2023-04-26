@@ -1,0 +1,64 @@
+.editor-copy {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    .copy {
+        width: 250px;
+        position: relative;
+        padding: 5px;
+        background: #fff;
+        border: 2px solid black;
+        border-radius: 15px;
+        display: flex;
+
+        .copy-txt {
+            width: 200px;
+            border: none;
+            outline: none;
+            padding: 5px;
+            font-size: 18px;
+        }
+
+        .copy-btn {
+            display: flex;
+            text-align: center;
+            font-size: 16px;
+            padding: 10px;
+            border: none;
+            outline: none;
+            background: #9a9a9a;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+                rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
+            &:hover {
+                background: #c5c5c5;
+            }
+            &:active {
+                background: #6d6d6d;
+            }
+        }
+    }
+    .image-btn {
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        background: #9a9a9a;
+        margin-left: 10px;
+        padding: 12px;
+        width: 45px;
+        height: 45px;
+        border-radius: 15px;
+        font-size: 16px;
+        text-align: center;
+        cursor: pointer;
+
+        &:hover {
+            background: #c5c5c5;
+        }
+        &:active {
+            background: #6d6d6d;
+        }
+    }
+}

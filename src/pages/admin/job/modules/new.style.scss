@@ -1,0 +1,205 @@
+/* Basic editor styles */
+.ProseMirror {
+    > * + * {
+        margin-top: 0.75em;
+    }
+
+    a {
+        font-weight: 700;
+        text-decoration: none;
+        color: lime;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    ul,
+    ol {
+        padding: 0 2.5rem;
+    }
+
+    code {
+        background-color: rgba(#616161, 0.1);
+        border-radius: 0.25em;
+        box-decoration-break: clone;
+        color: #616161;
+        font-size: 0.9rem;
+        padding: 0.25em;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.job-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+    .job-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+        h3 {
+            color: #000 !important;
+        }
+        .title-image {
+            display: flex;
+            width: 60%;
+            justify-content: space-between;
+        }
+        .job-application {
+            width: 70%;
+            padding: 10px;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            .temp-label {
+                margin: 10px 10px 10px 0;
+            }
+            .info {
+                .info-container {
+                    width: 100%;
+                    margin: 0;
+                    .info-wage-input {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+                        margin: 0;
+
+                        span {
+                            padding: 15px;
+                        }
+
+                        input {
+                            width: 100%;
+                        }
+
+                        .max-wage {
+                            margin-right: -10px;
+                        }
+                    }
+                }
+            }
+            .interest {
+                display: flex;
+                justify-content: space-between;
+                .interest-container {
+                    margin: 0;
+                    width: 100%;
+                    .interest-input {
+                        display: flex;
+                        justify-content: space-between;
+                        input {
+                            width: 100%;
+                            margin: 5px;
+                        }
+                    }
+                }
+            }
+            .editor-container {
+                display: block;
+                .editor-btn-container {
+                    .editor-btn-wrapper {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        .hbtn {
+                            border: none;
+                            outline: none;
+                            padding: 5px;
+                            &:hover {
+                                filter: brightness(0.95);
+                                cursor: pointer;
+                            }
+                        }
+                        .is-active {
+                            filter: brightness(0.95);
+                            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+                                rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+                        }
+                        .editor-in {
+                            -webkit-appearance: none;
+                            -moz-appearance: none;
+                            display: block;
+                            appearance: none;
+                            width: 40px;
+                            height: 40px;
+                            background-color: transparent;
+                            border: none;
+                            cursor: pointer;
+
+                            &::-webkit-color-swatch {
+                                border: none;
+                            }
+                            &::-moz-color-swatch {
+                                border: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            label {
+                margin-top: 10px;
+            }
+
+            input {
+                padding: 10px;
+                border: 1px solid #d3d3d3;
+                border-radius: 5px;
+            }
+
+            .content {
+                display: block;
+                width: 100%;
+                height: 200px;
+                overflow: auto;
+                border: 1px solid #d3d3d3;
+                border-radius: 0 0 5px 5px;
+                background: #fff;
+                padding: 10px;
+            }
+            .submit {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                margin: 0;
+                .sbtn {
+                    width: 200px;
+                    padding: 10px;
+                    border: none;
+                    border-radius: 5px;
+                    outline: none;
+                    font-size: 16px;
+                    font-weight: 600;
+                    cursor: pointer;
+                    transition-duration: 500ms;
+                    &:hover {
+                        transition-duration: 500ms;
+                        filter: brightness(1.2);
+                    }
+                }
+                .back-btn {
+                    background: #b4b4b4;
+                }
+
+                .submit-btn {
+                    background: #72c562;
+                }
+            }
+        }
+    }
+}

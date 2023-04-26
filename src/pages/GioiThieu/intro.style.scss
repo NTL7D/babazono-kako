@@ -1,0 +1,624 @@
+.wrapper {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.content {
+    width: 40%;
+    margin-left: 10%;
+}
+.content .title {
+    width: 100%;
+    height: 100%;
+}
+
+.title .heading {
+    text-transform: uppercase;
+    margin: 50px 0;
+    display: flex;
+    flex-direction: column;
+}
+.heading .introduce {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+}
+.heading .span-heading {
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 0;
+}
+
+.border0 {
+    width: 60px;
+    height: 5px;
+    background-color: #74b048;
+    margin-top: 25px;
+    top: 100%;
+    /* background-color: black; */
+}
+
+.border1 {
+    width: 60px;
+    height: 3px;
+    background-color: black;
+}
+.image {
+    width: 50%;
+    height: 100%;
+}
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.destion {
+    line-height: 1.7;
+    color: #777;
+    margin-top: 35px;
+}
+.vision {
+    display: flex;
+    /* justify-contnet: space-between; */
+    flex-direction: row;
+    align-items: center;
+    column-gap: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.visionDes {
+    margin-left: 72px;
+    margin-bottom: 15px;
+    width: 560px;
+}
+
+.Container {
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+}
+.Schedu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 10% 0 0 0;
+    margin-right: 10%;
+}
+.TrainImg > .Schedubg {
+    position: absolute;
+    top: 10px;
+    z-index: -1;
+    width: 30%;
+    height: auto;
+}
+.odd {
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+}
+.ScheduTitle {
+    text-align: center;
+    width: 100%;
+}
+.ScheduH2 {
+    font-size: 32px;
+}
+.Train {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.TrainImg {
+    width: 50%;
+    z-index: 1;
+}
+.TrainImg img {
+    width: 100%;
+    border-radius: 10px;
+}
+.TrainContent {
+    width: 50%;
+    padding: 10% 10% 0 10%;
+}
+.TrainContentSpan {
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 120%;
+}
+.TrainContentP {
+    width: 100%;
+    line-height: 1.7;
+    color: #777;
+    margin-bottom: 20px;
+}
+.Link {
+    color: #74b048;
+    font-weight: 700;
+    /* out-line: none; */
+}
+.LinkFresher {
+    color: #e3783a;
+    font-weight: 700;
+    /* out-line: none; */
+}
+.LinkIntern {
+    color: #74b048;
+    font-weight: 700;
+    /* out-line: none; */
+}
+
+@media screen and (max-width: 1100px) {
+    .Schedubg {
+        width: 25% !important;
+    }
+    .TrainContent {
+        padding: 0 10% !important;
+    }
+}
+@media screen and (max-width: 550px) {
+    .Container {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .Schedu {
+        flex-direction: column !important;
+        padding: 10px 0;
+    }
+    .Train {
+        flex-direction: column;
+    }
+    .Schedu-reverse {
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+    .Schedubg {
+        display: none;
+    }
+    .TrainImg,
+    .TrainContent {
+        width: 100% !important;
+    }
+    .TrainContent {
+        padding: 0 !important;
+    }
+
+    .TextDes {
+        font-size: 18px;
+    }
+
+    .DesLocation {
+        width: 50%;
+        height: 200px;
+        flex-direction: column;
+    }
+
+    .DesLeft {
+        height: 72%;
+        width: 20%;
+        font-size: 18px;
+    }
+
+    .DesRight {
+        height: 72%;
+        width: 20%;
+        margin-top: -25px;
+        margin-left: -48px;
+    }
+
+    .DesEmployee span {
+        font-size: 15px;
+    }
+
+    .RightEmployee span {
+        font-size: 15px;
+    }
+
+    .font {
+        left: -240px;
+    }
+    .number .title h2 {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .number .title span {
+        margin-top: 10px;
+        left: 0;
+        transform: translateX(-55px);
+        min-width: 70%;
+        position: absolute;
+    }
+
+    .Location {
+        /* overflow-x: hidden; */
+        overflow: scroll;
+    }
+
+    .items {
+        width: 100%;
+        padding: 0;
+    }
+    .items img {
+        width: 100%;
+        height: 70%;
+    }
+
+    .title .des {
+        width: 70%;
+    }
+}
+
+.Place {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    margin-top: 175px;
+}
+.RowPadding {
+    width: 20%;
+    height: 310px;
+    background-color: #eee;
+}
+.Row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.RowContent {
+    height: 100%;
+    width: 60%;
+    background-color: #eee;
+}
+.ContentPlace {
+    width: 100%;
+    height: 708px;
+}
+.TitlePlace {
+    font-weight: 700;
+    color: #9a9c9f;
+    font-size: 25px;
+}
+.ContentP {
+    padding: 60px 80px 20px 0px;
+}
+.TextDes {
+    font-size: 20px;
+    color: #282828;
+}
+.Location {
+    width: 100%;
+    height: 32%;
+    display: flex;
+    margin-top: 10px;
+}
+.LocationItem {
+    width: 60%;
+    height: 210px;
+    cursor: pointer;
+}
+.BorderPlace {
+    margin-top: 20px;
+    width: 130px;
+    border: 2px solid #fff;
+}
+.BorderPlace:hover {
+    border: 2px solid #74b048;
+}
+.ItemPlace {
+    width: 130px;
+    height: 170px;
+    margin-top: 18px;
+}
+.ImgPlace {
+    width: 130px;
+    height: 97px;
+}
+.ImgPlace img {
+    width: 130px;
+    height: 100%;
+    object-fit: cover;
+}
+.DesLocation {
+    width: 70%;
+    height: 174px;
+    display: flex;
+}
+.DesLeft {
+    width: 267px;
+    height: 100%;
+}
+.DesBox {
+    width: 100%;
+    height: 32%;
+}
+.BoxP {
+    width: 20%;
+    height: 50%;
+}
+.BoxStrong .num {
+    color: #98999a;
+    font-size: 200%;
+}
+.DesEmployee {
+    margin-top: -15px;
+    color: #98999a;
+    font-size: 18px;
+}
+
+.DesEmployee span {
+    width: 200px;
+    display: block;
+}
+.DesRight {
+    width: 394px;
+    height: 100%;
+}
+.RightBox {
+    width: 393px;
+    height: 142px;
+    margin-left: 50px;
+}
+.RightP {
+    width: 373px;
+    height: 52px;
+}
+.RightStrong {
+    color: #98999a;
+    font-size: 200%;
+}
+
+.RightEmployee {
+    padding-top: 20px;
+    color: #98999a;
+    font-size: 18px;
+}
+.RowItems {
+    min-height: 100%;
+    width: 27%;
+    margin-left: 30px;
+    overflow-y: auto;
+    height: 300px; /* đặt chiều cao của khung cuộn */
+    overflow: scroll; /* cho phép vùng nội dung cuộn */
+}
+.items {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 20px;
+}
+.items img {
+    width: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: lightgray;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.number {
+    width: 100%;
+    height: 474px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: url(https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/bg-gt.png);
+    position: relative;
+}
+
+.title {
+    width: 1080px;
+    height: 42px;
+}
+.title .h2 {
+    color: #fff;
+    padding-top: 20px;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+.title .des {
+    color: #f1f1f1;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.font {
+    width: 83%;
+    height: 212px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+    margin-left: 235px;
+    display: flex;
+    margin-top: -30px;
+}
+.item {
+    width: 270px;
+    height: 100%;
+    column-gap: 10px;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+.icon-img {
+    max-width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.icon-img img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-top: -20px;
+    font-weight: 500;
+}
+.item-des {
+    width: 240px;
+    height: 100px;
+    margin-top: 20px;
+}
+span.num {
+    color: #ffff;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+span.text {
+    color: #e0e0e0;
+    font-size: 1em;
+    text-align: center;
+    pad: 0.7em 0;
+    font-weight: 400;
+    line-height: 0;
+    margin-left: 30px;
+}
+
+.listOfImage {
+    width: 41%;
+    height: 40%;
+    margin: 21px 25%;
+    text-align: center;
+    color: #808080;
+}
+
+@media screen and (max-width: 550px) {
+    .listOfImage {
+        width: 80%;
+        height: 40%;
+        margin: 21px 9%;
+        text-align: center;
+        color: #808080;
+    }
+
+    .form-main {
+        width: 59%;
+        height: 50%;
+        /* display: flex; */
+        align-items: center;
+        background-image: url(https://fsoft-academy.edu.vn/wp-content/themes/flatsome-child/assets/images/bg-form-about.png);
+        box-shadow: 50px 50px #d8e8ed;
+        margin-left: -304px;
+    }
+
+    .form-right {
+        width: 98%;
+        height: 70%;
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+.number .title {
+    width: 100%;
+    /* margin-top: 60px; */
+    margin: 0 auto;
+    position: relative;
+}
+.number .title h2 {
+    /* width: 100%;
+    font-weight: 700;
+    margin-bottom: 30px; */
+
+    text-align: center;
+    border-bottom: 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+.number .title span {
+    /* display: inline-block;
+    width: 42%;
+     margin-left: 30%; 
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    position: absolute; */
+
+    display: flex;
+    width: 45%;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    position: absolute;
+    justify-content: space-between;
+    margin-left: 29%;
+}
+.Outer {
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+}
+.Inner {
+    width: 100%;
+    height: 100%;
+}
+.Photos {
+    list-style: none;
+    height: 80%;
+    width: 80%;
+    border-radius: 45%;
+}
+.Inner .swiper {
+    width: 90%;
+    height: 90%;
+}
+.Inner .swiper-slide {
+    text-align: center;
+    font-size: 16px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    overflow: visible;
+    width: 100%;
+}
+.Inner .swiper-container .swiper-zoom-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+    border-radius: 50%;
+}
+.Inner .swiper-pagination-bullets {
+    display: none;
+}
+.Inner .swiper-container-free-mode > .swiper-wrapper {
+    transition-timing-function: linear;
+}
