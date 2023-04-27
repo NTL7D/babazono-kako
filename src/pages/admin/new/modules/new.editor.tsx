@@ -51,10 +51,10 @@ const NewTextEditor = () => {
 
     useEffect(() => {
         if (id) {
-            api.get(`/content/${id}`)
+            api.get(`/news/${id}`)
                 .then((res) => {
                     setTitle(res.data.title);
-                    setContent(res.data.content);
+                    setContent(res.data.poster);
                 })
                 .catch((err) => {
                     console.error(err);
@@ -124,9 +124,9 @@ const NewTextEditor = () => {
     const saveNews = async () => {
         if (id) {
             await api
-                .put(`/content/${id}`, {
+                .put(`/news/${id}`, {
                     title: title,
-                    content: content,
+                    poster: content,
                 })
                 .then(() => {
                     console.log("Content updated");
@@ -136,9 +136,9 @@ const NewTextEditor = () => {
                 });
         } else {
             await api
-                .post("/content", {
+                .post("/news", {
                     title: title,
-                    content: content,
+                    poster: content,
                 })
                 .then(() => {
                     console.log(`Content saved`);
@@ -227,7 +227,7 @@ const NewTextEditor = () => {
                             className={`hbtn ${
                                 editor.isActive("bulletList") ? "is-active" : ""
                             }`}>
-                            <HiListBullet/>
+                            <HiListBullet />
                         </button>
                         <button
                             onClick={() =>

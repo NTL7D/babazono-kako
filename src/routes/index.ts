@@ -43,10 +43,7 @@ const PublicRoutes: RoutingPath[] = [
     { path: "/khai-giang", component: PageKhaiGiang },
     { path: "/khai-giang/:id", component: PageKhaiGiangChiTiet },
     { path: "/dao-tao-mo-rong", component: AdvanceEduPage },
-    { path: "/thuc-tap", component: InternshipPage }
-];
-
-const PrivateRoutes: RoutingPath[] = [
+    { path: "/thuc-tap", component: InternshipPage },
 
     { path: "/admin", component: AdminHomePage, layout: AdminLayout },
     { path: "/admin/jobs", component: AdminJobPage, layout: AdminLayout },
@@ -54,11 +51,14 @@ const PrivateRoutes: RoutingPath[] = [
     { path: "admin/jobs/content/:id", component: CreateNewJobApplicationPage, layout: AdminLayout },
     { path: "admin/courses", component: AdminCoursesPage, layout: AdminLayout },
     { path: "admin/news/content", component: AdminCreateNewPage, layout: AdminLayout },
-    { path: "/test", component: MyComponent },
     { path: "/admin/news", component: AdminNewPage, layout: AdminLayout },
     {
         path: "admin/news/content/:id", component: AdminCreateNewPage, layout: AdminLayout
     },
+    { path: "/test", component: MyComponent },
+];
+
+const PrivateRoutes: RoutingPath[] = [
 ];
 
 export { PublicRoutes, PrivateRoutes };

@@ -64,6 +64,7 @@ const MyComponent: React.FC = () => {
         <div>
             {sessions.map((session, sessionIndex) => (
                 <div key={sessionIndex}>
+                    <p>Tên bài học</p>
                     <input
                         type='text'
                         value={session.title}
@@ -76,6 +77,7 @@ const MyComponent: React.FC = () => {
                     />
                     {session.lessons.map((lesson, lessonIndex) => (
                         <div key={lessonIndex}>
+                            <p>Tên nội dung</p>
                             <input
                                 type='text'
                                 value={lesson}
