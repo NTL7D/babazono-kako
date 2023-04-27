@@ -4,12 +4,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import api from "../../config/axios";
 import "./index.style.scss";
 
+type Technology = {
+    id: number;
+    name: string;
+};
+
 const ContactPage: React.FC = () => {
     const [fullname, setFullname] = useState("");
     const [phone, setPhone] = useState("");
     const [email, setEmail] = useState("");
     const [idTechnology, setIdTechnology] = useState("");
-    const [technologyOption, setTechnologyOption] = useState([]);
+    const [technologyOption, setTechnologyOption] = useState<Technology[]>([]);
     const [workaddress, setWorkaddress] = useState("");
     const [worktime, setWorktime] = useState("");
 
@@ -78,12 +83,12 @@ const ContactPage: React.FC = () => {
                         </div>
                         <br></br>
                         <div onSubmit={handleSubmit}>
-                            <div className='form_box'>
-                                <div className='left'>
+                            <div className='form_contact_box'>
+                                <div className='left_contact_box'>
                                     <span>
                                         <input
                                             type='text'
-                                            className='input'
+                                            className='input_contact_box'
                                             name='your_name'
                                             value-size='40'
                                             aria-required='true'
@@ -98,7 +103,7 @@ const ContactPage: React.FC = () => {
                                     <span>
                                         <input
                                             type='tel'
-                                            className='input'
+                                            className='input_contact_box'
                                             name='your_phone'
                                             value-size='40'
                                             aria-required='true'
@@ -113,7 +118,7 @@ const ContactPage: React.FC = () => {
                                     <span>
                                         <input
                                             type='email'
-                                            className='input'
+                                            className='input_contact_box'
                                             name='your_mail'
                                             value-size='40'
                                             aria-invalid='false'
@@ -129,7 +134,7 @@ const ContactPage: React.FC = () => {
                                         <select
                                             name='location'
                                             aria-invalid='false'
-                                            className='input'
+                                            className='input_contact_box'
                                             value={workaddress}
                                             onChange={(event) =>
                                                 setWorkaddress(
@@ -164,7 +169,7 @@ const ContactPage: React.FC = () => {
                                         <select
                                             id='idTechnology'
                                             name='idTechnology'
-                                            className='input'
+                                            className='input_contact_box'
                                             value={idTechnology}
                                             onChange={(event) =>
                                                 setIdTechnology(
@@ -190,7 +195,7 @@ const ContactPage: React.FC = () => {
                                         <select
                                             name='work_type'
                                             aria-invalid='false'
-                                            className='input'
+                                            className='input_contact_box'
                                             value={worktime}
                                             onChange={(event) =>
                                                 setWorktime(event.target.value)
