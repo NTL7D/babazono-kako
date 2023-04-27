@@ -151,7 +151,7 @@ const MainFooter: React.FC = () => {
                                     </p>
                                     <p>
                                         Email:{" "}
-                                        <a href='#'>FA.HN@fsoft.com.vn</a>
+                                        <a className="a-footer" href='#'>FA.HN@fsoft.com.vn</a>
                                     </p>
                                 </div>
                             </div>
@@ -190,7 +190,7 @@ const MainFooter: React.FC = () => {
                                     </p>
                                     <p>
                                         Email:{" "}
-                                        <a href='#'>FA.DN@fsoft.com.vn</a>
+                                        <a className="a-footer" href='#'>FA.DN@fsoft.com.vn</a>
                                     </p>
                                 </div>
                             </div>
@@ -225,7 +225,7 @@ const MainFooter: React.FC = () => {
                                     </p>
                                     <p>
                                         Email:{" "}
-                                        <a href='#'>FA.DN@fsoft.com.vn</a>
+                                        <a className="a-footer" href='#'>FA.DN@fsoft.com.vn</a>
                                     </p>
                                 </div>
                             </div>
@@ -272,7 +272,7 @@ const MainFooter: React.FC = () => {
                                     </p>
                                     <p>
                                         Email:{" "}
-                                        <a href='#'>FA.HCM@fsoft.com.vn</a>
+                                        <a className="a-footer" href='#'>FA.HCM@fsoft.com.vn</a>
                                     </p>
                                 </div>
                             </div>
@@ -308,7 +308,7 @@ const MainFooter: React.FC = () => {
                                     </p>
                                     <p>
                                         Email:{" "}
-                                        <a href='#'>FA.HCM@fsoft.com.vn</a>
+                                        <a className="a-footer" href='#'>FA.HCM@fsoft.com.vn</a>
                                     </p>
                                 </div>
                             </div>
@@ -317,10 +317,10 @@ const MainFooter: React.FC = () => {
                 </div>
             </section>
             {/* light section footer */}
-            <section className='section light' id='sectionlight'>
-                <div className='bg bg-fill fill section-bg bg-loaded'></div>
-                <div className='section-content relative'>
-                    <div className='row' id='row-footer-light'>
+            <section className='section-footer light' id='sectionlight'>
+                <div className='bg-footer bg-fill-footer fill-footer section-bg-footer bg-loaded-footer'></div>
+                <div className='section-content-footer relative-footer'>
+                    <div className='row-footer' id='row-footer-light'>
                         {/* Link các trang mạng xã hội */}
                         <div
                             id='social-app-link'
@@ -330,7 +330,7 @@ const MainFooter: React.FC = () => {
                                     <strong>POWERED BY</strong>
                                 </p>
                                 {/* Logo phần dưới */}
-                                <div className='img-logo' id='fpt-logo-light'>
+                                <div className='img-foooter' id='fpt-logo-light'>
                                     <div className='img-inner-logo dark'>
                                         <img
                                             src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/04/logo.svg'
@@ -344,7 +344,7 @@ const MainFooter: React.FC = () => {
                                     <strong>FOLLOW US</strong>
                                 </p>
                                 {/* Phần tương tác */}
-                                <div className='text social-footer'>
+                                <div className='text-footer social-footer'>
                                     <div
                                         className='like-button'
                                         id='facebook-text'>

@@ -103,7 +103,6 @@ div {
     position: relative;
 }
 .section-content-footer {
-    z-index: 1;
     width: 100%;
 }
 .row-footer {
@@ -174,13 +173,11 @@ div {
     position: relative;
     margin-top: 0;
     text-rendering: optimizeSpeed;
+    color: #fff;
+    font-weight: 700;
 }
 .size-large-footer {
     width: 36%;
-}
-h3 {
-    color: #fff;
-    font-weight: 700;
 }
 .section-title-footer span {
     text-transform: uppercase;
@@ -218,11 +215,17 @@ footer .section-title-footer-footer .section-title-main-footer {
     color: rgba(255, 255, 255, 0.6);
     padding: 0;
 }
-a {
+.ux-menu-link__text-footer:hover{
+    color:#7ebf4f!important;
+}
+.a-footer {
     text-decoration: none;
     touch-action: manipulation;
     background-color: transparent;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6)!important;
+}
+.a-footer:hover{
+    color:#7ebf4f!important;
 }
 .dark-footer .ux-menu-link__link-footer {
     border-bottom-color: rgba(255, 255, 255, 0.2);
@@ -235,7 +238,7 @@ a {
     border-bottom-width: 1px;
 }
 .angle-right-icon-footer {
-    color: #5db24f;
+    color: #5db24f!important;
     font-size: 14px;
 }
 .text-footer {
@@ -270,7 +273,7 @@ strong {
     border-style: none;
 }
 .theo-doi {
-    color: #fff;
+    color: #fff!important;
 }
 .like-icon-color {
     color: #fff;
