@@ -61,13 +61,17 @@ const AdvanceEduPage: React.FC = () => {
                                                                 <span
                                                                     style={{
                                                                         fontSize:
-                                                                            "90%",
+                                                                            "95%",                  
                                                                     }}>
                                                                     CHƯƠNG TRÌNH
                                                                     ĐÀO TẠO
                                                                 </span>
                                                             </h1>
-                                                            <p>
+                                                            <p
+                                                                 style={{
+                                                                    fontSize: "15px",
+                                                                    fontWeight: "470",
+                                                                }}>
                                                                 Với sứ mệnh cung
                                                                 cấp và đào tạo
                                                                 nguồn nhân lực
@@ -1126,7 +1130,7 @@ const AdvanceEduPage: React.FC = () => {
                                                                 </a>
                                                             </div>
                                                             <div className='item-info pa-half'>
-                                                                <div className='item-detail full-width'>
+                                                                <div className=' full-width'>
                                                                     <h3 className='item-title my-0'>
                                                                         <a href='https://fsoft-academy.edu.vn/course/programming-with-python/'>
                                                                             Python
@@ -1188,7 +1192,7 @@ const AdvanceEduPage: React.FC = () => {
                                                                 </a>
                                                             </div>
                                                             <div className='item-info pa-half'>
-                                                                <div className='item-detail full-width'>
+                                                                <div className='full-width'>
                                                                     <h3 className='item-title my-0'>
                                                                         <a href='/'>
                                                                             Easy
@@ -1260,7 +1264,7 @@ const AdvanceEduPage: React.FC = () => {
                                                                 </a>
                                                             </div>
                                                             <div className='item-info pa-half'>
-                                                                <div className='item-detail full-width'>
+                                                                <div className='full-width'>
                                                                     <h3 className='item-title my-0'>
                                                                         <a href='/'>
                                                                             Full-Stack
@@ -1329,7 +1333,7 @@ const AdvanceEduPage: React.FC = () => {
                                                                 </a>
                                                             </div>
                                                             <div className='item-info pa-half'>
-                                                                <div className='item-detail full-width'>
+                                                                <div className='full-width'>
                                                                     <h3 className='item-title my-0'>
                                                                         <a href='/'>
                                                                             Luyện
@@ -1400,7 +1404,7 @@ const AdvanceEduPage: React.FC = () => {
                                                                 </a>
                                                             </div>
                                                             <div className='item-info pa-half'>
-                                                                <div className='item-detail full-width'>
+                                                                <div className=' full-width'>
                                                                     <h3 className='item-title my-0'>
                                                                         <a href='/'>
                                                                             DevOps
@@ -1469,7 +1473,7 @@ const AdvanceEduPage: React.FC = () => {
                                                                 </a>
                                                             </div>
                                                             <div className='item-info pa-half'>
-                                                                <div className='item-detail full-width'>
+                                                                <div className='full-width'>
                                                                     <h3 className='item-title my-0'>
                                                                         <a href='/'>
                                                                             Full-Stack
@@ -1543,7 +1547,7 @@ const AdvanceEduPage: React.FC = () => {
                                                                 </a>
                                                             </div>
                                                             <div className='item-info pa-half'>
-                                                                <div className='item-detail full-width'>
+                                                                <div className='full-width'>
                                                                     <h3 className='item-title my-0'>
                                                                         <a href='/'>
                                                                             Embedded
@@ -1608,7 +1612,7 @@ const AdvanceEduPage: React.FC = () => {
                                                                 </a>
                                                             </div>
                                                             <div className='item-info pa-half'>
-                                                                <div className='item-detail full-width'>
+                                                                <div className=' full-width'>
                                                                     <h3 className='item-title my-0'>
                                                                         <a href='/'>
                                                                             Software
@@ -1677,7 +1681,7 @@ const AdvanceEduPage: React.FC = () => {
                                                                 </a>
                                                             </div>
                                                             <div className='item-info pa-half'>
-                                                                <div className='item-detail full-width'>
+                                                                <div className='full-width'>
                                                                     <h3 className='item-title my-0'>
                                                                         <a href='/'>
                                                                             React
@@ -1745,7 +1749,7 @@ const AdvanceEduPage: React.FC = () => {
                                                                 </a>
                                                             </div>
                                                             <div className='item-info pa-half'>
-                                                                <div className='item-detail full-width'>
+                                                                <div className='full-width'>
                                                                     <h3 className='item-title my-0'>
                                                                         <a href='/'>
                                                                             Agile
@@ -1813,7 +1817,7 @@ const AdvanceEduPage: React.FC = () => {
                                                                 </a>
                                                             </div>
                                                             <div className='item-info pa-half'>
-                                                                <div className='item-detail full-width'>
+                                                                <div className='full-width'>
                                                                     <h3 className='item-title my-0'>
                                                                         <a href='/'>
                                                                             Fullstack
@@ -1883,7 +1887,7 @@ const AdvanceEduPage: React.FC = () => {
                                                                 </a>
                                                             </div>
                                                             <div className='item-info pa-half'>
-                                                                <div className='item-detail full-width'>
+                                                                <div className='full-width'>
                                                                     <h3 className='item-title my-0'>
                                                                         <a href='/'>
                                                                             Web
