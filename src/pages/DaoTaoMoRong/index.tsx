@@ -21,6 +21,7 @@ const AdvanceEduPage: React.FC = () => {
                     type='text/css'
                     media='all'
                 />
+                <title>Đào tạo mở rộng ‹ Fsoft Academy</title>
             </Helmet>
             <a className='skip-link screen-reader-text' href='#main'>
                 Skip to content
