@@ -17,6 +17,8 @@ export { default as PageTinTuc } from "./TinTuc";
 //recuit
 export { default as PageTuyenDung } from './TuyenDung';
 
+//jobs
+
 //JPA
 export { default as JPAcademyPage } from "./JPA";
 

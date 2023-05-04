@@ -17,6 +17,7 @@ import {
     InternshipPage,
     PageGioiThieu,
     PageKhaiGiang,
+    PageTuyenDung,
 } from "../pages";
 import { JPAcademyLayout, AdminLayout } from "../layout";
 
@@ -40,6 +41,7 @@ const PublicRoutes: RoutingPath[] = [
     { path: "/tin-tuc", component: PageTinTuc },
     { path: "/lien-he", component: ContactPage },
     { path: "/khai-giang", component: PageKhaiGiang },
+    { path: "/tuyen-dung", component: PageTuyenDung },
     { path: "/dao-tao-mo-rong", component: AdvanceEduPage },
     { path: "/thuc-tap", component: InternshipPage },
 
