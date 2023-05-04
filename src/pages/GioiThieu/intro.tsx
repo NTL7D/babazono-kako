@@ -39,7 +39,9 @@ const IntroductionLandingPage: React.FC = (props) => {
                     <div className='content_ct'>
                         <div className='title_te'>
                             <div className='heading_hdg'>
-                                <span className='introduce_ine'>Giới Thiệu </span>
+                                <span className='introduce_ine'>
+                                    Giới Thiệu{" "}
+                                </span>
                                 <span className='span-heading'>
                                     FPT Software Academy
                                 </span>
@@ -208,7 +210,9 @@ const IntroductionLandingPage: React.FC = (props) => {
                                 đào tạo, học viên trở thành nhân viên chính thức
                                 và được phân bổ về làm việc tại dự án.
                             </p>
-                            <a href='./Introduce.js' className='LinkFresher_lkF'>
+                            <a
+                                href='./Introduce.js'
+                                className='LinkFresher_lkF'>
                                 Xem thêm
                             </a>
                         </div>
@@ -615,7 +619,9 @@ const IntroductionLandingPage: React.FC = (props) => {
                             <div className='container'>
                                 <i className='link_icon'></i>
                                 <span className='num_NM_haha'>3</span>
-                                <span className='text_tt'>CƠ SỞ TRÊN CẢ NƯỚC</span>
+                                <span className='text_tt'>
+                                    CƠ SỞ TRÊN CẢ NƯỚC
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -666,173 +672,223 @@ const IntroductionLandingPage: React.FC = (props) => {
                             },
                         }}>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/1521197681-brasol.vn-logo-hutech-unnamed.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/1521197681-brasol.vn-logo-hutech-unnamed.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/kt-quan-su.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/kt-quan-su.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/download-2.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/download-2.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/Logo_HCMUAF.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/Logo_HCMUAF.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/xd.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/xd.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/buu-chinh.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/buu-chinh.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/logo1809x996.jpg'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/logo1809x996.jpg'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/siu.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/siu.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/thuy-loi.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/thuy-loi.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/download-1.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/download-1.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/sp-da-nang.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/sp-da-nang.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/UEL-logo-official.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/UEL-logo-official.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/cong-nghe.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/cong-nghe.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/UIT.png'
-                                alt=''></img>
+                            <div className='swiper-container'>
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/UIT.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/7-11-Nhan-dien-thuong-hieu.jpg'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/7-11-Nhan-dien-thuong-hieu.jpg'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/sp-ky-thuat-da-nang.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/sp-ky-thuat-da-nang.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/unnamed-1.jpg'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/unnamed-1.jpg'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dh-vinh.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dh-vinh.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/ky-thuat-mat-ma.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/ky-thuat-mat-ma.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
 
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/download.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/download.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/dh-dong-nai.jpg'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/dh-dong-nai.jpg'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dh-dong-a.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dh-dong-a.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dh-duy-tan.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dh-duy-tan.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/bk-da-nang.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/bk-da-nang.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dien-luc.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dien-luc.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
@@ -841,88 +897,116 @@ const IntroductionLandingPage: React.FC = (props) => {
                                 alt=''></img>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/cong-nghiep.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/cong-nghiep.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/HCMUS.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/HCMUS.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/UT.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/UT.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/UTE.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/UTE.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/Hitu.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/Hitu.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dh-mo.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dh-mo.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/mo-dia-chat.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/mo-dia-chat.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/HUNRE_Logo.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/HUNRE_Logo.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/khtn.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/khtn.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dh-khoa-hoc-hue.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dh-khoa-hoc-hue.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/Logo_Hust.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/Logo_Hust.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/1521197681-brasol.vn-logo-hutech-unnamed.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='https://fsoft-academy.edu.vn/wp-content/uploads/2021/08/1521197681-brasol.vn-logo-hutech-unnamed.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dh-khoa-hoc-hue.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dh-khoa-hoc-hue.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                         <SwiperSlide>
-                            <img
-                                className='Photos_hihi'
-                                src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dh-khoa-hoc-hue.png'
-                                alt=''></img>
+                            <div className="swiper-container">
+                                <img
+                                    className='Photos_hihi'
+                                    src='	https://fsoft-academy.edu.vn/wp-content/uploads/2021/05/dh-khoa-hoc-hue.png'
+                                    alt=''></img>
+                            </div>
                         </SwiperSlide>
                     </Swiper>
                 </div>
