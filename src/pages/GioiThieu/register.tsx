@@ -43,11 +43,11 @@ const RegisterPage: React.FC = () => {
     };
     return (
         <div>
-            <div className='form'>
-                <div className='form-content'>
-                    <div className='form-main'>
-                        <div className='form-left'>
-                            <div className='left-content'>
+            <div className='form_fm_bx'>
+                <div className='form-content_fm_ct'>
+                    <div className='form-main_fm_m'>
+                        <div className='form-left_fm_lf'>
+                            <div className='left-content_lf_ct'>
                                 <h3>
                                     GIA NHẬP <br></br>
                                     FPT SOFTWARE ACADEMY
@@ -59,11 +59,12 @@ const RegisterPage: React.FC = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className='form-right'>
+                        <div className='form-right_fm_rt'>
                             <form
-                                className='right-content'
+                                className='right-content_rt_ct'
                                 onSubmit={handleSubmit}>
                                 <input
+                                    className="input_ip_gioithieu"
                                     type='text'
                                     name='your-name'
                                     placeholder='Họ và Tên*'
@@ -74,6 +75,7 @@ const RegisterPage: React.FC = () => {
                                     }
                                 />
                                 <input
+                                    className="input_ip_gioithieu"
                                     type='tel'
                                     name='your-phone'
                                     placeholder='Số điện thoại*'
@@ -84,6 +86,7 @@ const RegisterPage: React.FC = () => {
                                     }
                                 />
                                 <input
+                                    className="input_ip_gioithieu"
                                     type='email'
                                     name='your-email'
                                     placeholder='Địa chỉ email'
@@ -94,6 +97,7 @@ const RegisterPage: React.FC = () => {
                                     }
                                 />
                                 <select
+                                    className="input_ip_gioithieu"
                                     name='location'
                                     value={workaddress}
                                     onChange={(event) =>
@@ -113,6 +117,7 @@ const RegisterPage: React.FC = () => {
                                     <option value='Đà Nẵng'>Đà Nẵng</option>
                                 </select>
                                 <select
+                                    className="input_ip_gioithieu"
                                     id='idTechnology'
                                     name='idTechnology'
                                     value={idTechnology}
@@ -120,7 +125,7 @@ const RegisterPage: React.FC = () => {
                                         setIdTechnology(event.target.value)
                                     }>
                                     <option value=''>
-                                        -- Chọn công nghệ --
+                                        Chọn công nghệ
                                     </option>
                                     {technologyOption.map(
                                         (technology, index) => (
@@ -133,6 +138,7 @@ const RegisterPage: React.FC = () => {
                                     )}
                                 </select>
                                 <select
+                                    className="input_ip_gioithieu"
                                     name='work-type'
                                     value={worktime}
                                     onChange={(event) =>
@@ -144,15 +150,17 @@ const RegisterPage: React.FC = () => {
                                     <option value='Full time'>Full time</option>
                                     <option value='Part time'>Part time</option>
                                 </select>
-                                <label>
+                                <label className="checkbox_click_cbck_gioithieu">
                                     <input
+                                        className='checkbox_input_cbip_gioithieu'
                                         type='checkbox'
                                         value='Đăng kí nhận tin từ chúng tôi'
-                                        className='input'></input>
-                                    <span>Đăng kí nhận tin từ chúng tôi</span>
+                                    ></input>
+                                    <span className="checkbox_content_cbct_gioithieu">Đăng kí nhận tin từ chúng tôi</span>
                                 </label>
-                                <div className='submit'>
+                                <div className='area_submit_ast_gioithieu'>
                                     <input
+                                        className="button_submit_btst_gioithieu"
                                         type='submit'
                                         value='Đăng kí'></input>
                                 </div>

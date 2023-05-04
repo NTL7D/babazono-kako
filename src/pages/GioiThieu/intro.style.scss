@@ -1,43 +1,46 @@
-.wrapper {
+.wrapper111{
+    background-color: #fff;
+}
+.wrapper_wpr {
     width: 100%;
     height: auto;
     background-color: #fff;
 }
-.main {
+.main_mn {
     width: 100%;
     display: flex;
     flex-direction: row;
     column-gap: 15px;
 }
 
-.content {
+.content_ct {
     width: 40%;
     margin-left: 10%;
 }
-.content .title {
+.content_ct .title_te {
     width: 100%;
     height: 100%;
 }
 
-.title .heading {
+.title_te .heading {
     text-transform: uppercase;
     margin: 50px 0;
     display: flex;
     flex-direction: column;
 }
-.heading .introduce {
+.heading_hdg .introduce_ine {
     font-size: 32px;
     font-weight: 700;
     text-align: left;
 }
-.heading .span-heading {
+.heading_hdg .span-heading {
     width: 100%;
     font-size: 32px;
     font-weight: 700;
     margin-left: 0;
 }
 
-.border0 {
+.border00 {
     width: 60px;
     height: 5px;
     background-color: #74b048;
@@ -46,26 +49,26 @@
     /* background-color: black; */
 }
 
-.border1 {
+.border11 {
     width: 60px;
     height: 3px;
     background-color: black;
 }
-.image {
+.image_ie_hinh {
     width: 50%;
     height: 100%;
 }
-.image img {
+.image_ie_hinh img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.destion {
+.destion_det {
     line-height: 1.7;
     color: #777;
     margin-top: 35px;
 }
-.vision {
+.vision_vsn {
     display: flex;
     /* justify-contnet: space-between; */
     flex-direction: row;
@@ -74,18 +77,18 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.visionDes {
+.visionDes_vsnDes {
     margin-left: 72px;
     margin-bottom: 15px;
     width: 560px;
 }
 
-.Container {
+.Container_ctr_gioithieu {
     height: auto;
     width: 100%;
     background-color: #fff;
 }
-.Schedu {
+.Schedu_su {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -93,64 +96,64 @@
     padding: 10% 0 0 0;
     margin-right: 10%;
 }
-.TrainImg > .Schedubg {
+.TrainImg_TnImg > .Schedubg_subg {
     position: absolute;
     top: 10px;
     z-index: -1;
     width: 30%;
     height: auto;
 }
-.odd {
+.odd_o_d {
     position: absolute;
     right: 0px;
     z-index: -1;
 }
-.ScheduTitle {
+.ScheduTitle_sute {
     text-align: center;
     width: 100%;
 }
-.ScheduH2 {
+.ScheduH2_suH2 {
     font-size: 32px;
 }
-.Train {
+.Train_Tn {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
-.TrainImg {
+.TrainImg_TnImg {
     width: 50%;
     z-index: 1;
 }
-.TrainImg img {
+.TrainImg_TnImg img {
     width: 100%;
     border-radius: 10px;
 }
-.TrainContent {
+.TrainContent_TnCt {
     width: 50%;
     padding: 10% 10% 0 10%;
 }
-.TrainContentSpan {
+.TrainContentSpan_TnCtSpan {
     text-align: justify;
     margin-bottom: 15px;
     font-size: 120%;
 }
-.TrainContentP {
+.TrainContentP_TnCtP {
     width: 100%;
     line-height: 1.7;
     color: #777;
     margin-bottom: 20px;
 }
-.Link {
+.Link_lk {
     color: #74b048;
     font-weight: 700;
     /* out-line: none; */
 }
-.LinkFresher {
+.LinkFresher_lkF {
     color: #e3783a;
     font-weight: 700;
     /* out-line: none; */
 }
-.LinkIntern {
+.LinkIntern_lkI {
     color: #74b048;
     font-weight: 700;
     /* out-line: none; */
@@ -165,11 +168,11 @@
     }
 }
 @media screen and (max-width: 550px) {
-    .Container {
+    .Container_ctr_gioithieu {
         display: flex;
         flex-direction: column !important;
     }
-    .Schedu {
+    .Schedu_su {
         flex-direction: column !important;
         padding: 10px 0;
     }
@@ -183,11 +186,11 @@
     .Schedubg {
         display: none;
     }
-    .TrainImg,
-    .TrainContent {
+    .TrainImg_TnImg,
+    .TrainContent_TnCt {
         width: 100% !important;
     }
-    .TrainContent {
+    .TrainContent_TnCt {
         padding: 0 !important;
     }
 
@@ -195,7 +198,7 @@
         font-size: 18px;
     }
 
-    .DesLocation {
+    .DesLocation_DesLct {
         width: 50%;
         height: 200px;
         flex-direction: column;
@@ -222,15 +225,15 @@
         font-size: 15px;
     }
 
-    .font {
+    .font_ftt {
         left: -240px;
     }
-    .number .title h2 {
+    .number_NMber .title_te h2 {
         width: 100%;
         margin-left: 0px;
     }
 
-    .number .title span {
+    .number_NMber .title_te span {
         margin-top: 10px;
         left: 0;
         transform: translateX(-55px);
@@ -238,151 +241,151 @@
         position: absolute;
     }
 
-    .Location {
+    .Location_Lct {
         /* overflow-x: hidden; */
         overflow: scroll;
     }
 
-    .items {
+    .items_ims {
         width: 100%;
         padding: 0;
     }
-    .items img {
+    .items_ims img {
         width: 100%;
         height: 70%;
     }
 
-    .title .des {
+    .title_te .des_D {
         width: 70%;
     }
 }
 
-.Place {
+.Place_Pe {
     width: 100%;
     height: 100%;
     background-color: #fff;
     display: flex;
     margin-top: 175px;
 }
-.RowPadding {
+.RowPadding_RwPddg {
     width: 20%;
     height: 310px;
     background-color: #eee;
 }
-.Row {
+.Row_Rw {
     width: 100%;
     display: flex;
     flex-direction: row;
 }
-.RowContent {
+.RowContent_RwCt {
     height: 100%;
     width: 60%;
     background-color: #eee;
 }
-.ContentPlace {
+.ContentPlace_CtPe {
     width: 100%;
     height: 708px;
 }
-.TitlePlace {
+.TitlePlace_teP {
     font-weight: 700;
     color: #9a9c9f;
     font-size: 25px;
 }
-.ContentP {
+.ContentP_CtP {
     padding: 60px 80px 20px 0px;
 }
-.TextDes {
+.TextDes_TtDes {
     font-size: 20px;
     color: #282828;
 }
-.Location {
+.Location_Lct {
     width: 100%;
     height: 32%;
     display: flex;
     margin-top: 10px;
 }
-.LocationItem {
+.LocationItem_LctIm {
     width: 60%;
     height: 210px;
     cursor: pointer;
 }
-.BorderPlace {
+.BorderPlace_BdrP {
     margin-top: 20px;
     width: 130px;
     border: 2px solid #fff;
 }
-.BorderPlace:hover {
+.BorderPlace_BdrP:hover {
     border: 2px solid #74b048;
 }
-.ItemPlace {
+.ItemPlace_ImP {
     width: 130px;
     height: 170px;
     margin-top: 18px;
 }
-.ImgPlace {
+.ImgPlace_IgP {
     width: 130px;
     height: 97px;
 }
-.ImgPlace img {
+.ImgPlace_IgP img {
     width: 130px;
     height: 100%;
     object-fit: cover;
 }
-.DesLocation {
+.DesLocation_DesLct {
     width: 70%;
     height: 174px;
     display: flex;
 }
-.DesLeft {
+.DesLeft_DLt {
     width: 267px;
     height: 100%;
 }
-.DesBox {
+.DesBox_Dbx {
     width: 100%;
     height: 32%;
 }
-.BoxP {
+.BoxP_bxP {
     width: 20%;
     height: 50%;
 }
-.BoxStrong .num {
+.BoxStrong_bxSg .num_NM_haha {
     color: #98999a;
     font-size: 200%;
 }
-.DesEmployee {
+.DesEmployee_DEe {
     margin-top: -15px;
     color: #98999a;
     font-size: 18px;
 }
 
-.DesEmployee span {
+.DesEmployee_DEe span {
     width: 200px;
     display: block;
 }
-.DesRight {
+.DesRight_DRt {
     width: 394px;
     height: 100%;
 }
-.RightBox {
+.RightBox_Rtbx {
     width: 393px;
     height: 142px;
     margin-left: 50px;
 }
-.RightP {
+.RightP_Rtp {
     width: 373px;
     height: 52px;
 }
-.RightStrong {
+.RightStrong_RtSg {
     color: #98999a;
     font-size: 200%;
 }
 
-.RightEmployee {
+.RightEmployee_RtEe {
     padding-top: 20px;
     color: #98999a;
     font-size: 18px;
 }
-.RowItems {
+.RowItems_RwIms {
     min-height: 100%;
     width: 27%;
     margin-left: 30px;
@@ -390,12 +393,12 @@
     height: 300px; /* đặt chiều cao của khung cuộn */
     overflow: scroll; /* cho phép vùng nội dung cuộn */
 }
-.items {
+.items_ims {
     width: 100%;
     height: 50%;
     padding-bottom: 20px;
 }
-.items img {
+.items_ims img {
     width: 100%;
     height: 100%;
 }
@@ -415,7 +418,7 @@
     background: #555;
 }
 
-.number {
+.number_NMber {
     width: 100%;
     height: 474px;
     margin-top: 50px;
@@ -424,22 +427,22 @@
     position: relative;
 }
 
-.title {
+.title_te {
     width: 1080px;
     height: 42px;
 }
-.title .h2 {
+.title_te .h2222 {
     color: #fff;
     padding-top: 20px;
     font-size: 32px;
     margin-bottom: 0;
 }
-.title .des {
+.title_te .des_D {
     color: #f1f1f1;
     font-size: 18px;
     margin-top: 25px;
 }
-.font {
+.font_ftt {
     width: 83%;
     height: 212px;
     position: absolute;
@@ -449,18 +452,18 @@
     display: flex;
     margin-top: -30px;
 }
-.item {
+.item_im {
     width: 270px;
     height: 100%;
     column-gap: 10px;
 }
-.icon {
+.icon_ic {
     width: 40px;
     height: 40px;
     margin: 0 auto;
     margin-top: -20px;
 }
-.icon-img {
+.icon-img_ii {
     max-width: 100%;
     position: relative;
     top: 0;
@@ -468,7 +471,7 @@
     right: 0;
     bottom: 0;
 }
-.icon-img img {
+.icon-img_ii img {
     display: block;
     width: 60px;
     height: 60px;
@@ -481,7 +484,7 @@
     height: 100px;
     margin-top: 20px;
 }
-span.num {
+span.num_NM_haha {
     color: #ffff;
     display: grid;
     place-items: center;
@@ -491,7 +494,7 @@ span.num {
     margin-bottom: 30px;
 }
 
-span.text {
+span.text_tt {
     color: #e0e0e0;
     font-size: 1em;
     text-align: center;
@@ -501,7 +504,7 @@ span.text {
     margin-left: 30px;
 }
 
-.listOfImage {
+.listOfImage_LOI {
     width: 41%;
     height: 40%;
     margin: 21px 25%;
@@ -535,13 +538,13 @@ span.text {
     }
 }
 
-.number .title {
+.number_NMber .title_te {
     width: 100%;
     /* margin-top: 60px; */
     margin: 0 auto;
     position: relative;
 }
-.number .title h2 {
+.number_NMber .title_te h2 {
     /* width: 100%;
     font-weight: 700;
     margin-bottom: 30px; */
@@ -551,7 +554,7 @@ span.text {
     text-transform: uppercase;
     color: #fff;
 }
-.number .title span {
+.number_NMber .title_te span {
     /* display: inline-block;
     width: 42%;
      margin-left: 30%; 
@@ -570,26 +573,26 @@ span.text {
     justify-content: space-between;
     margin-left: 29%;
 }
-.Outer {
+.Outer_Or {
     width: 100%;
     height: 100%;
     margin-top: 150px;
 }
-.Inner {
+.Inner_Ir {
     width: 100%;
     height: 100%;
 }
-.Photos {
+.Photos_hihi {
     list-style: none;
     height: 80%;
     width: 80%;
     border-radius: 45%;
 }
-.Inner .swiper {
+.Inner_Ir .swiper {
     width: 90%;
     height: 90%;
 }
-.Inner .swiper-slide {
+.Inner_Ir .swiper-slide {
     text-align: center;
     font-size: 16px;
     background: #fff;
@@ -609,16 +612,16 @@ span.text {
     overflow: visible;
     width: 100%;
 }
-.Inner .swiper-container .swiper-zoom-container > img {
+.Inner_Ir .swiper-container .swiper-zoom-container > img {
     width: 100%;
     height: 100%;
     object-fit: fill;
     object-position: center;
     border-radius: 50%;
 }
-.Inner .swiper-pagination-bullets {
+.Inner_Ir .swiper-pagination-bullets {
     display: none;
 }
-.Inner .swiper-container-free-mode > .swiper-wrapper {
+.Inner_Ir .swiper-container-free-mode > .swiper-wrapper {
     transition-timing-function: linear;
 }

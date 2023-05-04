@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+#main {
+    background-color: #fff;
+    position: relative;
+}
+div {
+    display: block;
+}
+@media only screen and (min-width: 550px) {
+    #section_img {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .main-img-large-hidden {
+        display: none;
+    }
+    .show-for-small {
+        display: none;
+    }
+}
+@media only screen and (min-width: 850px) {
+    .large-12-main {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+}
+.show-for-small {
+    border-radius: 4px;
+    height: 44px;
+    margin-bottom: 1em;
+    background-color: #fff;
+    background-position: right 0.45em top 50%;
+    background-repeat: no-repeat;
+    padding-right: 1.4em;
+    background-size: auto 16px;
+    border: 1px solid #ddd;
+    padding: 0 0.75em;
+    font-size: 0.97em;
+    max-width: 100%;
+    width: 100%;
+    vertical-align: middle;
+    color: #333;
+    transition: color 0.3s, border 0.3s, background 0.3s, opacity 0.3s;
+}
+.show-for-small:hover {
+    box-shadow: inset 0 -1.8em 1em 0 transparent;
+}
+.section-main {
+    padding: 30px 0;
+    position: relative;
+    min-height: auto;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.main-bg-fill {
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.section-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+.row-collapse {
+    max-width: 1080px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row-main {
+    content: "";
+    display: table;
+    clear: both;
+}
+#img-on-header-main-large {
+    width: 100%;
+    position: relative;
+}
+.inner-image-dark {
+    position: relative;
+    overflow: hidden;
+    color: #f1f1f1;
+}
+.img-src-large-attachment {
+    width: 100%;
+    transition: opacity 1s;
+    opacity: 1;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+.main-img-large-hidden {
+    width: 100%;
+}
+.custom-section-title {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 1.5em;
+    max-width: 1080px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.section-title-normal {
+    position: relative;
+    font-family: interui, sans-serif;
+    font-weight: 500;
+    border-bottom: 0;
+    margin-bottom: 0;
+    font-size: 32px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    flex-flow: row wrap;
+    text-rendering: optimizeSpeed;
+    color: #555;
+    line-height: 1.3;
+}
+.custom-title-span {
+    text-transform: uppercase;
+}
+.small-border:after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 100%;
+    display: inline-block;
+    width: 60px;
+    height: 5px;
+    background-color: #74b048;
+    clear: both;
+}
+.another-row {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1080px;
+}
+.another-col {
+    padding: 15px;
+    position: relative;
+    margin: 0;
+    width: 100%;
+}
+.another-col-inner {
+    position: relative;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#text-info {
+    font-size: 1rem;
+    line-height: 0.75;
+}
+.text-h2 {
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 1.6em;
+    line-height: 1.3;
+    color: #555;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    text-rendering: optimizeSpeed;
+}
+.text-update {
+    font-size: 75%;
+    font-family: arial, helvetica, sans-serif;
+}
+.form-filter {
+    margin-bottom: 1.3em;
+    display: block;
+    margin-top: 0em;
+}
+.container-list {
+    max-width: 1080px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.justify-end-schedule {
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

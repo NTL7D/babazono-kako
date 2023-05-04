@@ -1,5 +1,4 @@
 //public routes
-import PageKhaiGiangChiTiet from './KhaiGiang/detail/index';
 export { default as HomePage } from "./Home";
 
 
@@ -32,7 +31,6 @@ export { default as InternshipPage } from "./internship";
 
 //Khai Giảng
 export { default as PageKhaiGiang } from "./KhaiGiang"
-export { default as PageKhaiGiangChiTiet } from "./KhaiGiang/detail"
 
 //Admin routes (private)
 export { default as AdminHomePage } from "./admin/home";
