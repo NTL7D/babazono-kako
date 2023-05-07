@@ -12,6 +12,7 @@ import image8 from "../../assets/FPT_Japan_Source-08.png";
 import image7 from "../../assets/FPT_Japan_Source-07.png";
 import image6 from "../../assets/FPT_Japan_Source-06.png";
 import iconhoa from "../../assets/icon_hoa.png";
+import footer from "../../assets/LogoFooter.png"
 import gif from "../../assets/FPT-japan-Source-GIF.gif";
 
 import "./index.style.scss";
@@ -392,7 +393,7 @@ const JPAcademyPage: React.FC = () => {
                                     <div className='logo'></div>
                                     <img
                                         className='maxW100'
-                                        src='./image/LogoFooter.png'
+                                        src={footer}
                                         alt=''></img>
                                     <div className='title'>
                                         Học viện Nhật ngữ FPT - FPT Japan
