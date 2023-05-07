@@ -14,7 +14,10 @@
     z-index: -1;
 }
 .section_1 .boxContent {
-    padding: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 50%;
+    padding-left: 10%;
 }
 .section_1 .title_content {
     font-size: 36px;
@@ -65,14 +68,15 @@
     max-width: 1190px;
 }
 
-.section_2 .flex_row_reverse {
+.section_2 .flex_row_reverse_jpa {
     -webkit-box-orient: horizontal !important;
     -webkit-box-direction: reverse !important;
     -ms-flex-direction: row-reverse !important;
     flex-direction: row-reverse !important;
+    width: 100%;
 }
 
-.section_2 .col_3 {
+.section_2 .flex_row_reverse_jpa .col_3 {
     padding-right: 10px;
     padding-left: 10px;
     -webkit-box-flex: 0;
@@ -84,7 +88,7 @@
     min-height: 1px;
 }
 
-.section_2 .item {
+.section_2 .flex_row_reverse_jpa .item {
     background-image: linear-gradient(to right, #fff, #dbdbdb);
     padding: 8px;
     border-radius: 36px;
@@ -92,7 +96,7 @@
     height: 100%;
 }
 
-.section_2 .box_bottom {
+.section_2 .flex_row_reverse_jpa .box_bottom {
     background: #fff;
     border-radius: 30px;
     display: flex;
@@ -101,20 +105,20 @@
     justify-content: space-between;
 }
 
-.section_2 .box_content_4 {
+.section_2 .flex_row_reverse_jpa .box_content_4 {
     padding: 25px 15px 0px 25px;
 }
-.section_2 .box_content_3 {
+.section_2 .flex_row_reverse_jpa .box_content_3 {
     padding: 5px 25px 0 30px;
 }
-.section_2 .box_content_2 {
+.section_2 .flex_row_reverse_jpa .box_content_2 {
     padding: 25px 35px 25px 45px;
 }
-.section_2 .box_content_1 {
+.section_2 .flex_row_reverse_jpa .box_content_1 {
     padding: 0 18px;
 }
 
-.section_2 .title {
+.section_2 .flex_row_reverse_jpa .title {
     color: var(--cl_blue);
     font-weight: 700;
     font-size: 19px;
@@ -123,32 +127,34 @@
     margin-bottom: 45px;
 }
 
-.section_2 .sumary {
+.section_2 .flex_row_reverse_jpa .sumary {
     text-align: justify;
+    font-weight: 400;
+    font-size: 16px;
 }
 
-.section_2 .box_top {
+.section_2 .flex_row_reverse_jpa .box_top {
     background: #fff;
     border-radius: 30px;
     width: 100%;
     height: 100%;
 }
 
-.section_2 .box_bottom .last_img {
+.section_2 .flex_row_reverse_jpa .box_bottom .last_img {
     margin-bottom: -20px;
     max-width: calc(100% + 50px);
     margin-left: -30px;
     padding-top: 20px;
 }
 
-.section_2 .box_top .img {
+.section_2 .flex_row_reverse_jpa .box_top .img {
     margin-top: -20px;
     max-width: calc(100% + 100px);
     margin-left: -30px;
     position: relative;
 }
 
-.section_2 .box_bottom .img {
+.section_2 .flex_row_reverse_jpa .box_bottom .img {
     max-width: calc(100% + 100px);
     margin-left: -30px;
     margin-bottom: -20px;
@@ -233,7 +239,7 @@
 .section_6 .alignment-div {
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     margin-left: 12%;
     margin-right: 12%;
 }
@@ -252,7 +258,7 @@
     height: calc(100% + 30px);
     border-right: 1px solid #2a5d9c;
     border-top-right-radius: 30px;
-    z-index: 999;
+    z-index: 9;
 }
 .justtify {
     justify-content: flex-end;
@@ -314,6 +320,7 @@
     justify-content: flex-start;
     flex-direction: column;
     display: flex;
+    margin-left: -10%;
 }
 .section_6 .col:nth-child(2) .item-1 {
     width: 90%;
@@ -348,3 +355,86 @@
     overflow-clip-margin: content-box;
     overflow: clip;
 }
+
+.footer-jpa{
+    color: #333;
+    padding: 40px 0;
+}
+.footer-jpa .boxFooter{
+    max-width: 80%;
+}
+.footer-jpa .row-footer-jpa{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.footer-jpa .col-8{
+    -webkit-box-flex: 0;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+
+
+.footer-jpa .logo{
+    width: 182px;
+    margin-bottom: 20px;
+}
+
+
+.footer-jpa .boxLeft{
+    width: 130%;
+}
+
+
+.footer-jpa .maxW100{
+    width: 182px;
+    margin-bottom: 20px;
+}
+
+
+.footer-jpa .title{
+    color: #333;
+    font-weight: 620;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+
+.footer-jpa .sumary{
+    font-size: 16px;
+    max-width: 60%;
+}
+
+
+.footer-jpa .col-4{
+    -webkit-box-flex: 0;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+
+
+.footer-jpa .boxRight .title{
+    margin-top: 18px
+}
+
+
+.footer-jpa ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-jpa li{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+.footer-jpa .list .icon-footer-jpa{
+    margin-right: 12px;
+}
+

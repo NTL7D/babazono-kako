@@ -16,11 +16,11 @@
 .boxSection {
     position: relative;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
+.row-jpa {
     margin-right: -15px;
     margin-left: -15px;
+    display: flex;
+    flex-direction: row;
 }
 .col-7 {
     flex: 0 0 58.333333%;
@@ -42,7 +42,7 @@
     margin-top: 20px;
     font-weight: 500;
 }
-#section_7 .form {
+#section_7 .form-section-jpa {
     display: block;
     margin-top: 0em;
 }

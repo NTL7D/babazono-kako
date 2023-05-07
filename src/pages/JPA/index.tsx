@@ -1,9 +1,19 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import { Container, ListGroup, Image, Row, Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import Table from "./table";
 import Section from "./section";
 import image10 from "../../assets/FPT Japan Source-10.png";
+import image8 from "../../assets/FPT_Japan_Source-08.png";
+import image7 from "../../assets/FPT_Japan_Source-07.png";
+import image6 from "../../assets/FPT_Japan_Source-06.png";
+import iconhoa from "../../assets/icon_hoa.png";
+import gif from "../../assets/FPT-japan-Source-GIF.gif";
+
 import "./index.style.scss";
 
 const JPAcademyPage: React.FC = () => {
@@ -15,15 +25,15 @@ const JPAcademyPage: React.FC = () => {
             <div className='body'>
                 <section className='section_1'>
                     <div className='banner'>
-                        <Container className='boxContent'>
+                        <div className='boxContent'>
                             <h3 className='title_content'>
                                 HỌC VIỆN NHẬT NGỮ FPT JAPAN
                             </h3>
-                            <ListGroup className='list'>
+                            <ul className='list'>
                                 <div className='box_text_content'>
-                                    <Image
+                                    <img
                                         className='icon_hoa'
-                                        src='./image/icon_hoa.png'
+                                        src={iconhoa}
                                         alt='icon-hoa'
                                     />
                                     <span className='text_content'>
@@ -34,9 +44,9 @@ const JPAcademyPage: React.FC = () => {
                                     </span>
                                 </div>
                                 <div className='box_text_content'>
-                                    <Image
+                                    <img
                                         className='icon_hoa'
-                                        src='./image/icon_hoa.png'
+                                        src={iconhoa}
                                         alt='icon-hoa'
                                     />
                                     <span className='text_content'>
@@ -47,8 +57,8 @@ const JPAcademyPage: React.FC = () => {
                                         sau tốt nghiệp tại Nhật Bản
                                     </span>
                                 </div>
-                            </ListGroup>
-                        </Container>
+                            </ul>
+                        </div>
                     </div>
                 </section>
                 <section className='section_2'>
@@ -57,7 +67,7 @@ const JPAcademyPage: React.FC = () => {
                             Tại sao nên đi du học Nhật Bản 2021 ?
                         </h3>
                         <Container className='boxContent'>
-                            <Row className='flex_row_reverse'>
+                            <Row className='flex_row_reverse_jpa'>
                                 <Col className='col_3'>
                                     <div className='item'>
                                         <div className='box_bottom'>
@@ -82,7 +92,7 @@ const JPAcademyPage: React.FC = () => {
                                             <div className='box_img'>
                                                 <img
                                                     className='last_img'
-                                                    src='./image/FPT Japan Source-08.png'
+                                                    src={image8}
                                                     alt=''
                                                 />
                                             </div>
@@ -96,7 +106,7 @@ const JPAcademyPage: React.FC = () => {
                                             <div className='box_img'>
                                                 <img
                                                     className='img'
-                                                    src='./image/FPT Japan Source-07.png'
+                                                    src={image7}
                                                     alt=''
                                                 />
                                             </div>
@@ -139,7 +149,7 @@ const JPAcademyPage: React.FC = () => {
                                             <div className='box_img'>
                                                 <img
                                                     className='img'
-                                                    src='./image/FPT Japan Source-06.png'
+                                                    src={image6}
                                                     alt=''
                                                 />
                                             </div>
@@ -153,7 +163,7 @@ const JPAcademyPage: React.FC = () => {
                                             <div className='box_img'>
                                                 <img
                                                     className='img'
-                                                    src='./image/FPT Japan Source-07.png'
+                                                    src={image7}
                                                     alt=''
                                                 />
                                             </div>
@@ -183,7 +193,7 @@ const JPAcademyPage: React.FC = () => {
                             <a href='#section_7'>
                                 <img
                                     className='gif_section_3'
-                                    src='/image/FPT-Japan-Source-GIF.gif'
+                                    src={gif}
                                     alt=''
                                 />
                             </a>
@@ -208,12 +218,12 @@ const JPAcademyPage: React.FC = () => {
                                         </th>
                                         <th
                                             className='bgBlue'
-                                            rowSpan={Number(2)}>
+                                            colSpan={Number(2)}>
                                             Kỳ nhập học tháng 4
                                         </th>
                                         <th
                                             className='bgBlue'
-                                            rowSpan={Number(2)}>
+                                            colSpan={Number(2)}>
                                             Kỳ nhập học tháng 10
                                         </th>
                                     </tr>
@@ -373,6 +383,66 @@ const JPAcademyPage: React.FC = () => {
 
                 <section id='section_7'>
                     <Section />
+                </section>
+                <section className='footer-jpa'>
+                    <Container className='boxFooter'>
+                        <div className='row-footer-jpa'>
+                            <div className='col-8'>
+                                <div className='boxLeft'>
+                                    <div className='logo'></div>
+                                    <img
+                                        className='maxW100'
+                                        src='./image/LogoFooter.png'
+                                        alt=''></img>
+                                    <div className='title'>
+                                        Học viện Nhật ngữ FPT - FPT Japan
+                                        Academy
+                                    </div>
+                                    <div className='sumary'>
+                                        FPT Japan với khoảng 1500 nhân sự tại
+                                        Nhật Bản và 300 khách hàng là các công
+                                        ty hàng đầu Nhật Bản đã và đang nhận
+                                        được sự tin tưởng của khách hàng tại thị
+                                        trường Việt Nam và thế giới.
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-4'>
+                                <div className='boxRight'>
+                                    <div className='title'>Liên hệ</div>
+                                    <ul className='list'>
+                                        <li>
+                                            <span className='icon-footer-jpa'>
+                                                <FontAwesomeIcon
+                                                    icon={faGlobe}
+                                                    size='sm'
+                                                />{" "}
+                                                https://fjpacademy.com/
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span className='icon-footer-jpa'>
+                                                <FontAwesomeIcon
+                                                    icon={faEnvelope}
+                                                    size='xs'
+                                                />{" "}
+                                                FA.HN@fsoft.com.vn
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span className='icon-footer-jpa'>
+                                                <FontAwesomeIcon
+                                                    icon={faLocationDot}
+                                                    size='sm'
+                                                />{" "}
+                                                17 Duy Tân, Cầu Giấy, Hà Nội
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </Container>
                 </section>
             </div>
         </>

@@ -77,7 +77,7 @@ const Section: React.FC = () => {
     return (
         <div className='container'>
             <div className='boxSection'>
-                <div className='row'>
+                <div className='row-jpa'>
                     <div className='col-7'>
                         <div className='boxLeft'>
                             <div className='title'>
@@ -94,7 +94,7 @@ const Section: React.FC = () => {
                     </div>
                     <div className='col-5'>
                         <div className='boxRight'>
-                            <div className='form'>
+                            <div className='form-section-jpa'>
                                 <form
                                     action='#'
                                     method='POST'
